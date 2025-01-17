@@ -1,5 +1,11 @@
 # Genus
 
+An implementation of a novel genetic algorithm for performing k-means over an arbitrary metric space
+
+---
+
+## General Overview
+
 Genus is a novel algorithm for efficiently clustering large datasets using the central ideas of k-means.
 Unlike k-means, it can be applied in arbitrary metric spaces, where centroids cannot be exactly defined.
 Instead, Genus attempts to find medoids by randomly sampling points in arbitrary clusters.
@@ -10,6 +16,8 @@ Through the process of natural selection and mutation, Genus can efficiently sea
 and determine one that scores quite highly.
 
 ---
+
+## Development
 
 Get a Haskell development environment up and running quickly. Thanks to Nix, this template is optimized for a fully reproducible and friendly development environment. It is based on:
 
