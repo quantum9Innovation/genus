@@ -11,7 +11,7 @@
     };
 
     # https://omnix.page/om/init.html#spec
-    om.templates.haskell-template = {
+    om.templates.genus = {
       template = templates.default;
       params = [
         {
@@ -22,7 +22,7 @@
         {
           name = "package-name";
           description = "Name of the Haskell package";
-          placeholder = "haskell-template";
+          placeholder = "genus";
         }
         {
           name = "vscode";
